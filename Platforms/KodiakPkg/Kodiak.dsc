@@ -74,6 +74,7 @@
 
 [Components.common]
   SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
 
 [LibraryClasses.common]
   # Move PlatformMemoryMapLib form Silicon/QC/QCxxxx/Library to Device/<device>/Library
