@@ -13,6 +13,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Qcom HDK 8 Gen1"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Waipio"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"V2.0"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI HDK 8 Gen1"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1920
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1080
