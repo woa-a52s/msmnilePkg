@@ -193,10 +193,10 @@ sudo docker run -v $(pwd):/build/ -it mu:v1
 | Device                               | Target name            | DSDT Support    | Contributors                                       |
 |--------------------------------------|------------------------|-----------------|----------------------------------------------------|
 | Xiaomi 9                             | xiaomi-cepheus         | ✅              | [qaz6750](https://github.com/qaz6750)              |
-| Xiaomi Hercules                      | xiaomi-hercules        | ✅              | [Ww](https://github.com/Idonotkno)                 |
 | Xiaomi K20 Pro                       | xiaomi-raphael         | ✅              | [Degdag](https://github.com/degdag)&sunflower2333  |
 | Xiaomi Mix Alpha u2                  | xiaomi-avenger         | ❌              | NONE                                               |
 | Xiaomi Mix3 5G                       | xiaomi-andromeda       | ✅              | NONE                                               |
+| Xiaomi Mix3.5                        | xiaomi-hercules        | ✅              | NONE                                               |
 | Xiaomi Pad 5                         | xiaomi-nabu            | ✅              | [Map220v](https://github.com/map220v)              |
 | Xiaomi Poco X3 Pro                   | xiaomi-vayu            | ✅              | [Degdag](https://github.com/degdag)                |
 
@@ -319,6 +319,7 @@ sudo docker run -v $(pwd):/build/ -it mu:v1
 - Samuel Tulach and his [Rainbow Patcher](https://github.com/SamuelTulach/rainbow)
 - [BigfootACA](https://github.com/BigfootACA) and his [SimpleInit](https://github.com/BigfootACA/simple-init)
 - [Uotan](https://github.com/Uotan-Dev)
+- Developers in [Project-Silicium](https://github.com/Project-Silicium)
 - Developers in [Renegade Project](https://github.com/edk2-porting)
 - Lemon ICE
 
