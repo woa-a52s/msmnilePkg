@@ -11,6 +11,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"QRD"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI QRD 8 Gen2"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2400

@@ -7,10 +7,12 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|TRUE
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|1000
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"XiaoMi"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Redmi"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"K60 Pro"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"socrates"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Redmi K60 Pro"
 
 # Necessary Addresses
 gQcomPkgTokenSpaceGuid.KernelProtocolAddress|0xA703A948

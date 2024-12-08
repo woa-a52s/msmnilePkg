@@ -7,6 +7,7 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYANEO"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pocket S"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"PS"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Graphic QRD"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"AYANEO Pocket S"
 
 # Display Caller
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE

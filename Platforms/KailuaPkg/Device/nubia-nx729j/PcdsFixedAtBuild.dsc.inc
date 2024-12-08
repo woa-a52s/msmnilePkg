@@ -1,0 +1,12 @@
+[PcdsFixedAtBuild.common]
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1116
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2480
+#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+
+# Smbios Info
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Nubia"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"RedMagic 8 Pro"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"NX729J"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Nubia RedMagic 8 Pro"

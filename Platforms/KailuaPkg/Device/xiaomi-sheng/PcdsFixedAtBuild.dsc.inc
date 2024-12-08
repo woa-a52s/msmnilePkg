@@ -7,6 +7,7 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 6 S"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Xiaomi Pad 6S"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Sheng"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi Pad 6S"
 
 # Display Caller
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|TRUE

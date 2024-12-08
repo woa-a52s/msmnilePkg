@@ -7,6 +7,7 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYN"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Odin 2"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Odin"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"HDK"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"AYN Odin 2"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

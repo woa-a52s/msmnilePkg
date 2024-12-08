@@ -7,6 +7,7 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Oneplus"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"ACE 3"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"MP"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"1"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Oneplus ACE 3"
 
 # Display Caller
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
