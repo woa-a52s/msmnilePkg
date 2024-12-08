@@ -4,10 +4,11 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3200
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Mi 11"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"11"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"venus"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi 11"
 # Display Caller
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000000

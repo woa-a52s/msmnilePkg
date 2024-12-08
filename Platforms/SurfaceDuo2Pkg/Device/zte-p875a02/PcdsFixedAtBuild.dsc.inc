@@ -3,10 +3,11 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Zte"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Zte A31Pro"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"ZTE"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"A31 Pro"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"p875a02"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"ZTE A31 Pro"
 
 # Display Caller
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE

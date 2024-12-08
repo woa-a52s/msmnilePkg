@@ -8,6 +8,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Galaxy Z Fold 3 5G"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"q2q"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Galaxy_Z_Fold_3_5G_q2q"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Galaxy Z Fold 3 5G"
+
 # Display Caller
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000000
