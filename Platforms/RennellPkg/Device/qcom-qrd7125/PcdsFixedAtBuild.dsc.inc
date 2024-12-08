@@ -12,6 +12,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|1000
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI QRD 720"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2248

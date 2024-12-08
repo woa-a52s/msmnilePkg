@@ -9,6 +9,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Note 9S"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"miatoll"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Redmi Note 9S"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2400

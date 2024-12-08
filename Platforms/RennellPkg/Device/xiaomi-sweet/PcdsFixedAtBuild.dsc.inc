@@ -9,7 +9,7 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Note 10 Pro"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"sweet"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gArmTokenSpaceGuid.PcdSystemMemorySize|0x200000000
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Redmi Note 10 Pro"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
