@@ -14,4 +14,4 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"XiaoMi 9"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Cepheus"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"cepheus"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi 9"

@@ -12,4 +12,4 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"19801"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"hotdog"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"HD1910/HD1911/HD1913"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"hotdog"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Oneplus 7T Pro"

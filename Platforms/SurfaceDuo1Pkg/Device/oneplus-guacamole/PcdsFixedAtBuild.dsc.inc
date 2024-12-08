@@ -10,4 +10,4 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"18821"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"guacamole"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GM1910/GM1911/GM1913/GM1917"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"guacamole"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Oneplus 7 Pro"

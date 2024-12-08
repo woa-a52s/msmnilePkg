@@ -8,6 +8,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6l"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2152
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1536

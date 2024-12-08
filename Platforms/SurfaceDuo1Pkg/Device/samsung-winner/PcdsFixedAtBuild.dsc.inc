@@ -8,6 +8,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"F900F"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"winner"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung Galaxy Fold"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2152
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1536

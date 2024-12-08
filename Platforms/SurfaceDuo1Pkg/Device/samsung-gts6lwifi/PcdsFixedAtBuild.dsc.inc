@@ -8,6 +8,8 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6 WIFI"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6lwifi"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6 WIFI"
+
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2152
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1536
