@@ -14,10 +14,6 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Redmi K60 Pro"
 
-# Necessary Addresses
-gQcomPkgTokenSpaceGuid.KernelProtocolAddress|0xA703A948
-gQcomPkgTokenSpaceGuid.XBLDTProtocolAddress|0xA703A0C8
-
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1440
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|3200
