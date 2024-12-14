@@ -38,27 +38,25 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     { "Display Reserved",  0xB8000000, 0x02B00000, AddMem, MEM_RES, SYS_MEM_CAP, Reserv, WRITE_THROUGH_XN },
     { "OEM VM",            0xBB000000, 0x05000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
     { "MTE Reserved",      0xC0000000, 0x20000000, AddDynamicMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK_XN },
-    { "DXE Heap",          0xE0000000, 0x05700000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN },
+    { "RAM Partition",     0xE0000000, 0x05700000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN },
 //    { "VM PIL",            0xE0000000, 0x05700000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN },
-    { "RAM Partition",     0xE5700000, 0x03100000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK_XN },
+    { "RAM Partition",     0xE5700000, 0x03100000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN },
     { "TZ STATS",          0xE8800000, 0x01000000, AddDynamicMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN },
     { "RAM Partition",     0xE9800000, 0x00800000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK_XN },
     { "TZApps Reserved",   0xEA000000, 0x07400000, AddDynamicMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN },
     { "RAM Partition",     0xF1400000, 0x0E800000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
     { "UEFI FD",           0xFFC00000, 0x00400000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK},
 
-#if USE_MEMORY_FOR_SERIAL_OUTPUT == 1
-    { "PStore",            0x800000000, 0x00400000, AddMem, MEM_RES, SYS_MEM_CAP, Reserv, WRITE_THROUGH_XN},
-    { "RAM Partition",     0x800400000, 0x2FC00000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv,   WRITE_BACK_XN},
-#else
-    { "RAM Partition",     0x800000000, 0x30000000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv,   WRITE_BACK_XN},
-#endif
+//#if USE_MEMORY_FOR_SERIAL_OUTPUT == 1
+//    { "PStore",            0x800000000, 0x00400000, AddMem, MEM_RES, SYS_MEM_CAP, Reserv, WRITE_THROUGH_XN},
+//    { "RAM Partition",     0x800400000, 0x2FC00000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv,   WRITE_BACK_XN},
+//#else
+//    { "RAM Partition",     0x800000000, 0x30000000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv,   WRITE_BACK_XN},
+//#endif
 
     { "HYP Reserved",      0x830000000, 0x10000000, AddDynamicMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK_XN },
-    { "RAM Partition",     0x840000000, 0xC0000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
-    { "RAM Partition",     0x900000000, 0x80000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
-    { "RAM Partition",     0x980000000, 0x80000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
-    { "RAM Partition",     0xA00000000, 0x80000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
+
+    /* Dynamic add resting RAM Partitions */
 
     /* Other memory regions */
     { "IMEM Base",          0x14680000, 0x0002A000, NoHob,  MMAP_IO, INITIALIZED, Conv,   NS_DEVICE },
