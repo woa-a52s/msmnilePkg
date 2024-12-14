@@ -324,9 +324,10 @@ FILE FREEFORM = CDE28842-A59C-46A0-B43B-1E1E49ACEE5A {
 }
 
 
+# Extracted from QCS6490(RB3 Gen2) boot binaries.
 FILE FREEFORM = 9874B60A-6B80-4D76-8EEB-7862C780EC03 {
     SECTION UI = "Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml"
-    SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml
+    SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_lt9611uxc_dsi2hdmi_vid.xml
 }
 
 
