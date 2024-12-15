@@ -9,6 +9,7 @@ echo CI Environment Setup.
 #apt -y remove firefox # uninstall firefox before upgradeing.
 ./build_setup.sh
 # use clang14 as compiler
+sudo apt autoremove clang-18 -y
 sudo rm /usr/bin/clang
 sudo ln -s /usr/bin/clang-14 /usr/bin/clang
 
