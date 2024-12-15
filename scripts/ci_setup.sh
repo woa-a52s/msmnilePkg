@@ -8,6 +8,10 @@ echo CI Environment Setup.
 # Install Dependence
 #apt -y remove firefox # uninstall firefox before upgradeing.
 ./build_setup.sh
+# use clang14 as compiler
+sudo rm /usr/bin/clang
+sudo ln -s /usr/bin/clang-14 /usr/bin/clang
+
 pip install --upgrade -r pip-requirements.txt
 #source SurfaceDuo/bin/activate
 git config --global --add safe.directory '*'
