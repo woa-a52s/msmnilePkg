@@ -7,8 +7,6 @@ echo CI Environment Setup.
 
 # Install Dependence
 #apt -y remove firefox # uninstall firefox before upgradeing.
-apt update
-apt -y install sudo
 ./build_setup.sh
 pip install --upgrade -r pip-requirements.txt
 #source SurfaceDuo/bin/activate
