@@ -8,7 +8,7 @@
 
 You can download the latest UEFI build by clicking [here](https://github.com/Project-Aloha/mu_aloha_platforms/actions).
 
-![ActionStatus](https://img.shields.io/github/actions/workflow/status/Project-Aloha/mu_aloha_platforms/all_platforms.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Project-Aloha/mu_aloha_platforms/all_reference_platforms.yml)
 
 ## What's this?
 
