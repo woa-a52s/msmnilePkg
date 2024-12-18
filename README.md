@@ -56,7 +56,7 @@ Please see https://Project-Aloha.github.io for some tutorials.
 pip install --upgrade -r pip-requirements.txt
 ```
 
-*Alternatively, use docker if you don't have Ubuntu 24.04 environment*
+*Alternatively, use docker if you don't have Ubuntu 22.04 environment*
 
 ```
 sudo docker build -t mu:v1 .

@@ -8,10 +8,10 @@ echo CI Environment Setup.
 # Install Dependence
 #apt -y remove firefox # uninstall firefox before upgradeing.
 ./build_setup.sh
-# use clang14 as compiler
-sudo apt autoremove clang-18 -y
-sudo rm /usr/bin/clang
-sudo ln -s /usr/bin/clang-14 /usr/bin/clang
+
+# Choose python3.11 as default python3.
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 2
 
 pip install --upgrade -r pip-requirements.txt
 #source SurfaceDuo/bin/activate
