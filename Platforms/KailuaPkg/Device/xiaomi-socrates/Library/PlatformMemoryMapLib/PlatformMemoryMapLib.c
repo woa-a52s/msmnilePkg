@@ -52,12 +52,12 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     // 0x100000000 - 0x880000000
     // Size: 0x780000000
 
-    { "RAM Partition",     0x880000000, 0x39A00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
+//    { "RAM Partition",     0x880000000, 0x39A00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
 
     // Memory Hole
     // 0x8B9D00000 - 0x8c0000000
     // Size: 0x6300000
-    { "RAM Partition",     0x8C0000000, 0x80000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
+//    { "RAM Partition",     0x8C0000000, 0x80000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
 //    { "RAM Partition",     0x940000000, 0x40000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
 
 #if USE_MEMORY_FOR_SERIAL_OUTPUT == 1
