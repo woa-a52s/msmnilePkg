@@ -26,7 +26,7 @@
   FLASH_DEFINITION               = KodiakPkg/Kodiak.fdf
   SECURE_BOOT                    = 0
   USE_PHYSICAL_TIMER             = 0
-  USE_SCREEN_FOR_SERIAL_OUTPUT   = 0
+  USE_SCREEN_FOR_SERIAL_OUTPUT   = 1
   USE_MEMORY_FOR_SERIAL_OUTPUT   = 0
   USE_UART_FOR_SERIAL_OUTPUT     = 0
 
@@ -75,6 +75,7 @@
 
 [Components.common]
   SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
 
 [LibraryClasses.common]
   # Move PlatformMemoryMapLib form Silicon/QC/QCxxxx/Library to Device/<device>/Library

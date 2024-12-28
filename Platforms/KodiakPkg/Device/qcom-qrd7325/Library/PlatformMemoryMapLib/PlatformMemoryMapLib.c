@@ -3,7 +3,7 @@
 
 static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     /* Name               Address     Length      HobOption        ResourceAttribute    ArmAttributes
-                                                          ResourceType          MemoryType */
+     *                                                         ResourceType          MemoryType */
     /* DDR Regions */
     /* DDR Bank 0 Start */
     // Protect HYP, TZApps/QSEE, And move Display Framebuffer region.
@@ -24,9 +24,9 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     { "LPASS_ML",          0x81800000, 0x00F00000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, UNCACHED_UNBUFFERED_XN },
     { "CDSP Secure Heap",  0x82700000, 0x00010000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, UNCACHED_UNBUFFERED_XN },
     { "Sched Heap",        0x82710000, 0x00400000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK_XN },
-    { "HLOS3",             0x82B10000, 0x017F0000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
-    { "PIL Reserved",      0x84300000, 0x17A00000, AddMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN },
-    { "RAM Partition",     0x9BD00000, 0x03800000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
+    { "HLOS3",             0x82B10000, 0x030F0000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
+    { "PIL Reserved",      0x85C00000, 0x17A00000, AddMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN },
+    { "RAM Partition",     0x9D600000, 0x01F00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN },
     { "SEC Heap",          0x9F500000, 0x0008C000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK_XN },
     { "CPU Vectors",       0x9F58C000, 0x00001000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK },
     { "MMU PageTables",    0x9F58D000, 0x00003000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK_XN },
@@ -100,7 +100,7 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
     /* Terminator for MMU */
     {"Terminator", 0, 0, 0, 0, 0, 0, 0}};
 
-ARM_MEMORY_REGION_DESCRIPTOR_EX *GetPlatformMemoryMap()
-{
-  return gDeviceMemoryDescriptorEx;
-}
+    ARM_MEMORY_REGION_DESCRIPTOR_EX *GetPlatformMemoryMap()
+    {
+        return gDeviceMemoryDescriptorEx;
+    }
